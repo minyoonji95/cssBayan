@@ -1,0 +1,38 @@
+@media (min-width: 320px) {
+    .main {
+        margin: 0 auto;
+        max-width: 80%;
+        padding: 0;
+        }   
+}
+@media (min-width: 820px) {
+    .main {
+        width: 50rem;
+        max-width: 60%;
+        margin: 0 auto;
+    }
+}
+@media (min-width: 1080px) {
+    .main {
+        width: 50rem;
+        max-width: 30%;
+        margin: 0 auto;
+    }
+}
+li {
+    list-style: none;
+    transition: 5s ease-out;
+}
+.meme .meme-img img {
+    display: none;
+    width: 15rem;
+}
+.meme-img.active img {
+    display: block;
+}
+.meme:hover img{
+    display: block;
+}
+.meme-content {
+    cursor: pointer;
+}
