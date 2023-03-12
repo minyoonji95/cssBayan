@@ -101,6 +101,8 @@ li {
 
 .meme-img:focus img {
     display: block;
+    margin: auto;
+    opacity: 1;
 }
 
 .meme:hover {
